@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "Modal Ready Component",
+  "title": "Modal ready component",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "styleExt": {
+      "type": "string",
+      "default": "css"
+    },
+    "appRoot": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string",
+      "default": "app"
+    },
+    "sourceDir": {
+      "type": "string",
+      "default": "src"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

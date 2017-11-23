@@ -1,0 +1,5 @@
+<% if(styleExt == 'css') { %>
+/* Custom css goes here */
+<% } else { %>
+/* Custom <%= styleExt %> goes here */
+<% } %>
